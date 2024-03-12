@@ -9,6 +9,14 @@ window.addEventListener("scroll",()=>{
     }
 })
 
+window.addEventListener("load",()=>{
+    if(document.documentElement.scrollTop>50){
+        navbar.classList.add("navbar-scroll")
+    }
+    else{
+        navbar.classList.remove("navbar-scroll")
+    }
+})
 // Form Validation Functionlity
 var Name =  document.querySelector("#Name")
 var Email =  document.querySelector("#Email")
