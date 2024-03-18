@@ -435,7 +435,6 @@
     height: 70px;
     text-align: center;
     background: #fff;
-    line-height: 70px;
     border-radius: 6px;
     transition: 0.3s ease-in-out;
     margin-right: 20px;
@@ -443,8 +442,9 @@
 .service-left i{
     color: #2caee2;
     font-size: 25px;
-    line-height: 70px
+    line-height: 70px;
 }
+
 .service-box{
     margin-bottom: 1.5rem;
     cursor: pointer;
@@ -663,4 +663,30 @@
 .sub-footer-right i:hover{
     background-color: #2caee2;
     color: #fff;
+}
+/*Media Starts*/
+@media (max-width:991px){
+    .banner_box{
+        padding-top: 7rem;
+    }
+    .banner-box-content{
+        margin-bottom: 25px;
+    } 
+  }
+@media screen and (max-width: 767px) {
+    .sub-footer-right{
+        text-align: center;
+    }
+    .sub-footer-left{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .service-left .icon-box{
+        width: 90px;
+    }
+    .extra-service-icon-box {
+        width: 90px;
+    }
 }
